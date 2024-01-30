@@ -13,6 +13,7 @@ function Card({ data, ref }) {
     <motion.div
       drag
       dragConstraints={ref}
+      whileDrag={{ scale: 1.3 }}
       className=" relative flex-shrink-0 w-60 h-72 rounded-[50px] bg-zinc-900/90 px-5 py-10 text-white p-5 overflow-hidden "
     >
       <FaRegFileAlt />
